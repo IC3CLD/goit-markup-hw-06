@@ -903,6 +903,10 @@ li {
 	border: none;
 }
 
+.modal-form-agreement:focus + .modal-form-check-agreement::before {
+	border: 2px solid var(--acent-text-color);
+}
+
 .modal-form-check-agreement {
 	display: flex;
 	align-items: center;
