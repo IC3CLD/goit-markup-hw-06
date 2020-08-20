@@ -73,6 +73,7 @@ li {
 	border-radius: 4px;
 	align-items: center;
 	text-align: center;
+	outline: none;
 
 	color: var(--text-white-color);
 	background-color: var(--acent-text-color);
@@ -199,7 +200,7 @@ li {
 
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 1.36;
+	line-height: 1.39;
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
@@ -489,12 +490,12 @@ li {
 
 .footer .input-conteiner {
 	display: block;
-	width: 270px;
+	width: 300px;
 }
 
-.footer .input-conteiner:not(:last-child) {
+/* .footer .input-conteiner:not(:last-child) {
 	margin-right: 30px;
-}
+} */
 .footer .logo {
 	display: block;
 	margin-bottom: 20px;
@@ -573,7 +574,7 @@ li {
 
 .input-conteiner-join {
 	display: block;
-	width: 270px;
+	width: 300px;
 }
 
 .input-container-subscribe {
@@ -634,7 +635,7 @@ li {
 /* filters */
 .filters-projects {
 	padding-top: 94px;
-	padding-bottom: 94px;
+	margin-bottom: 94px;
 }
 
 .filters {
@@ -780,12 +781,15 @@ li {
 	overflow-y: scroll;
 
 	background: rgba(0, 0, 0, 0.2);
+
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .is-hidden {
 	opacity: 0;
 	/* pointer-events: none; */
 	visibility: hidden;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .modal {
@@ -798,6 +802,7 @@ li {
 	min-width: 528px;
 	min-height: 581px;
 	border-radius: 4px;
+	
 
 	background-color: white;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
