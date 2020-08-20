@@ -126,20 +126,6 @@ li {
 }
 
 /* nav */
-.site-nav {
-	position: relative;
-}
-
-.site-nav::after {
-	position: absolute;
-    left: 0;
-    bottom: 0;
-    display: block;
-    content: " ";
-    width: 100%;
-    border: 1px solid #ECECEC;
-}
-
 .site-nav .list {
 	display: flex;
 }
