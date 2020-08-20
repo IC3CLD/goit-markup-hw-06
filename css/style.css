@@ -435,7 +435,7 @@ li {
 /* clients */
 .client {
 	padding-top: 94px;
-	padding-bottom: 94px;
+	margin-bottom: 94px;
 }
 
 .client .title {
