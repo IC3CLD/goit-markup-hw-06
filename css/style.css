@@ -176,10 +176,9 @@ li {
 /* hero */
 
 .hero {
-	display: flex;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1600px;
 	height: 600px;
 	text-align: center;
 	background-color: var(--footer-background-color);
@@ -187,11 +186,10 @@ li {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-}
-.hero {
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
+
 .hero .title {
 	max-width: 696px;
 	margin-right: auto;
@@ -634,8 +632,12 @@ li {
 /* PORTFOLIO */
 
 /* filters */
-.filters {
+.filters-projects {
 	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.filters {
 	padding-bottom: 50px;
 }
 .filters .list {
@@ -673,7 +675,6 @@ li {
 .projects .list {
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 94px;
 }
 .projects .item {
 	width: 370px;
